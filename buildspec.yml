@@ -19,5 +19,5 @@ phases:
       - mvn -s settings.xml package
 artifacts:
   files:
-    - imbula-devops-cicd.war
-  discard-paths: no
+    - target/imbula-devops-cicd.war
+  
