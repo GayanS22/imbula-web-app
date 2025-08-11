@@ -8,8 +8,8 @@ sudo cat << EOF > /etc/httpd/conf.d/tomcat_manager.conf
   DefaultType text/html
   ProxyRequests off
   ProxyPreserveHost On
-  ProxyPass / http://localhost:8080/imbula-web-project/
-  ProxyPassReverse / http://localhost:8080/imbula-web-project/
+  ProxyPass / http://localhost:8080/imbula-web-app/
+  ProxyPassReverse / http://localhost:8080/imbula-web-app/
 </VirtualHost>
 EOF
 
