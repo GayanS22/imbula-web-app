@@ -2,7 +2,7 @@
 
     <servers>
     <server>
-        <id>imbula-imbula-repo</id>
+        <id>imbula-imbula-web-app</id>
         <username>aws</username>
         <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
     </server>
@@ -10,14 +10,14 @@
 
     <profiles>
     <profile>
-        <id>imbula-imbula-repo</id>
+        <id>imbula-imbula-web-app</id>
         <activation>
         <activeByDefault>true</activeByDefault>
         </activation>
         <repositories>
         <repository>
-            <id>imbula-imbula-repo</id>
-            <url>https://imbula-487771357305.d.codeartifact.ap-southeast-1.amazonaws.com/maven/imbula-repo/</url>
+            <id>imbula-imbula-web-app</id>
+            <url>https://imbula-487771357305.d.codeartifact.ap-southeast-1.amazonaws.com/maven/imbula-web-app/</url>
         </repository>
         </repositories>
     </profile>
@@ -25,9 +25,9 @@
 
     <mirrors>
     <mirror>
-        <id>imbula-imbula-repo</id>
-        <name>imbula-imbula-repo</name>
-        <url>https://imbula-487771357305.d.codeartifact.ap-southeast-1.amazonaws.com/maven/imbula-repo/</url>
+        <id>imbula-imbula-web-app</id>
+        <name>imbula-imbula-web-app</name>
+        <url>https://imbula-487771357305.d.codeartifact.ap-southeast-1.amazonaws.com/maven/imbula-web-app/</url>
         <mirrorOf>*</mirrorOf>
     </mirror>
     </mirrors>
